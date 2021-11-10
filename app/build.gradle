@@ -1,13 +1,12 @@
-plugins {
-    id 'com.android.application'
-}
+apply plugin: 'com.android.library'    // 认准这行
+apply plugin: 'com.github.dcendents.android-maven'
+group = 'com.github.1428823071git'
 
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.bawe.mymvp"
         minSdkVersion 24
         targetSdkVersion 30
         versionCode 1
